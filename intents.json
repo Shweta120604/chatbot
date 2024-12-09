@@ -1,0 +1,30 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Good morning", "How are you?"],
+        "responses": ["Hello!", "Hi there!", "Good to see you!", "How can I assist you today?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": ["Goodbye!", "See you soon!", "Take care!"]
+      },
+      {
+        "tag": "information",
+        "patterns": ["Tell me about your company", "What do you do?", "What services do you offer?"],
+        "responses": ["We offer web development services, AI solutions, and data analytics.", "Our company provides cutting-edge AI and software development services."]
+      },
+      {
+        "tag": "help",
+        "patterns": ["I need help", "Can you assist me?", "What can I ask you?"],
+        "responses": ["I can assist with a variety of topics including product inquiries, technical support, and general information."]
+      },
+      {
+        "tag": "joke",
+        "patterns": ["Tell me a joke", "Make me laugh", "Give me a joke"],
+        "responses": ["Why don't skeletons fight each other? They don't have the guts!", "Why did the scarecrow win an award? Because he was outstanding in his field!"]
+      }
+    ]
+  }
+  
